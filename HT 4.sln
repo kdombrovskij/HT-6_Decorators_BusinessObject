@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HT3_PageObject", "TestProject1\HT3_PageObject.csproj", "{F4D494E1-9C15-42F0-85EB-AC3652476DA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HT4_Parallel", "HT4_Parallel\HT4_Parallel.csproj", "{F4D494E1-9C15-42F0-85EB-AC3652476DA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

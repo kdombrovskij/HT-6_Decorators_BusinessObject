@@ -2,18 +2,15 @@
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.PageObjects;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading;
-using TestProject1.Configurations;
 
-namespace TestProject1.PageObjects
+namespace HT4_Parallel.PageObjects
 {
     class SearchResultPage : BasePage
     {
-        public SearchResultPage()
+        public SearchResultPage(IWebDriver driver) : base(driver)
         {
-            PageFactory.InitElements(Properties.driver, this);
+            PageFactory.InitElements(driver, this);
         }
 
         [FindsBy(How = How.XPath, Using = "//div[@data-filter-name='producer']//input")]
@@ -52,14 +49,14 @@ namespace TestProject1.PageObjects
         public void changeSortingOrder(int order)
         {
             DropdownElement.SelectByIndex(order);
-            Properties.driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
         }
 
         public void clickBuyButton()
         {
             Thread.Sleep(3000);
             buyButton.Click();
-            Properties.driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
         }
 
         public int getShoppingCartSumm()

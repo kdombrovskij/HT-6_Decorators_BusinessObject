@@ -1,18 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using OpenQA.Selenium;
-using TestProject1.Configurations;
 using SeleniumExtras.PageObjects;
-using OpenQA.Selenium.Support.UI;
 
-namespace TestProject1.PageObjects
+namespace HT4_Parallel.PageObjects
 {
     class BasePage
     {
-        public BasePage()
+        protected IWebDriver driver;
+
+        public BasePage(IWebDriver driver)
         {
-            PageFactory.InitElements(Properties.driver, this);
+            this.driver = driver;
+            PageFactory.InitElements(driver, this);
         }
 
         [FindsBy(How = How.XPath, Using = "//input[@name='search']")]
@@ -26,7 +25,7 @@ namespace TestProject1.PageObjects
         {
             searchInput.SendKeys(Keyword);
             searchButton.Click();
-            Properties.driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
         }
     }
 }
