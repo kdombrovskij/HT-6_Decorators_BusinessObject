@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Filters>
+	<FiltersList>
+<!-- -->
+	<Filter>
+			<item>Ноутбук</item>
+			<producer>Lenovo</producer>
+			<sort>2</sort>
+			<price>50000</price>
+		</Filter>
+		<Filter>
+			<item>Хлебопечка</item>
+			<producer>Gorenje</producer>
+			<sort>1</sort>
+			<price>6500</price>
+		</Filter>
+		<Filter>
+			<item>Чайник</item>
+			<producer>Maestro</producer>
+			<sort>3</sort>
+			<price>15000</price>
+		</Filter>
+		<Filter>
+			<item>Спининг</item>
+			<producer>Daiwa</producer>
+			<sort>1</sort>
+			<price>10000</price>
+		</Filter>
+		<Filter>
+			<item>Блендер</item>
+			<producer>Bosch</producer>
+			<sort>3</sort>
+			<price>3000</price>
+		</Filter>
+	</FiltersList>
+</Filters>
