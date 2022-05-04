@@ -25,7 +25,7 @@ namespace HT6_Decorators_BusinessObject.Tests
         public void Setup()
         {
             Serilog.Log.Logger = new LoggerConfiguration()
-               .WriteTo.File(@"D:\HT\HT-4_Parallel\HT6_Decorators_BusinessObject\Logs\Logs.txt", rollingInterval: RollingInterval.Day)
+               .WriteTo.File(@"D:\HT\HT6\HT6_Decorators_BusinessObject\Logs\Logs.txt", rollingInterval: RollingInterval.Day)
                .CreateLogger();
             Serilog.Log.Information("Log started");
             _driver = new ChromeDriver();

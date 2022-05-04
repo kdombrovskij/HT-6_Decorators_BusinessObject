@@ -392,6 +392,12 @@
           "build/NUnit.props": {}
         }
       },
+      "NUnit.ConsoleRunner/3.15.0": {
+        "type": "package"
+      },
+      "NUnit.Extension.NUnitProjectLoader/3.7.1": {
+        "type": "package"
+      },
       "NUnit3TestAdapter/4.2.1": {
         "type": "package",
         "build": {
@@ -1515,6 +1521,89 @@
         "nunit.nuspec"
       ]
     },
+    "NUnit.ConsoleRunner/3.15.0": {
+      "sha512": "YZ/O+QzWxkvq1LV6fIa73w5bh4qg187jFcEhI0t0WF0X2YyYNPCxJvvHtfDcNKvJnj+TTjPssIcgsZnHw31bKg==",
+      "type": "package",
+      "path": "nunit.consolerunner/3.15.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "images/nunit_256.png",
+        "nunit.consolerunner.3.15.0.nupkg.sha512",
+        "nunit.consolerunner.nuspec",
+        "tools/agents/net20/nunit-agent-x86.exe",
+        "tools/agents/net20/nunit-agent-x86.exe.config",
+        "tools/agents/net20/nunit-agent.exe",
+        "tools/agents/net20/nunit-agent.exe.config",
+        "tools/agents/net20/nunit.agent.addins",
+        "tools/agents/net20/nunit.engine.api.dll",
+        "tools/agents/net20/nunit.engine.api.xml",
+        "tools/agents/net20/nunit.engine.core.dll",
+        "tools/agents/net20/testcentric.engine.metadata.dll",
+        "tools/agents/net40/nunit-agent-x86.exe",
+        "tools/agents/net40/nunit-agent-x86.exe.config",
+        "tools/agents/net40/nunit-agent.exe",
+        "tools/agents/net40/nunit-agent.exe.config",
+        "tools/agents/net40/nunit.agent.addins",
+        "tools/agents/net40/nunit.engine.api.dll",
+        "tools/agents/net40/nunit.engine.api.xml",
+        "tools/agents/net40/nunit.engine.core.dll",
+        "tools/agents/net40/testcentric.engine.metadata.dll",
+        "tools/agents/net5.0/nunit-agent.deps.json",
+        "tools/agents/net5.0/nunit-agent.dll",
+        "tools/agents/net5.0/nunit-agent.dll.config",
+        "tools/agents/net5.0/nunit-agent.runtimeconfig.json",
+        "tools/agents/net5.0/nunit.agent.addins",
+        "tools/agents/net5.0/nunit.engine.api.dll",
+        "tools/agents/net5.0/nunit.engine.api.xml",
+        "tools/agents/net5.0/nunit.engine.core.dll",
+        "tools/agents/net5.0/testcentric.engine.metadata.dll",
+        "tools/agents/net6.0/nunit-agent.deps.json",
+        "tools/agents/net6.0/nunit-agent.dll",
+        "tools/agents/net6.0/nunit-agent.dll.config",
+        "tools/agents/net6.0/nunit-agent.runtimeconfig.json",
+        "tools/agents/net6.0/nunit.agent.addins",
+        "tools/agents/net6.0/nunit.engine.api.dll",
+        "tools/agents/net6.0/nunit.engine.api.xml",
+        "tools/agents/net6.0/nunit.engine.core.dll",
+        "tools/agents/net6.0/testcentric.engine.metadata.dll",
+        "tools/agents/netcoreapp3.1/nunit-agent.deps.json",
+        "tools/agents/netcoreapp3.1/nunit-agent.dll",
+        "tools/agents/netcoreapp3.1/nunit-agent.dll.config",
+        "tools/agents/netcoreapp3.1/nunit-agent.runtimeconfig.json",
+        "tools/agents/netcoreapp3.1/nunit.agent.addins",
+        "tools/agents/netcoreapp3.1/nunit.engine.api.dll",
+        "tools/agents/netcoreapp3.1/nunit.engine.api.xml",
+        "tools/agents/netcoreapp3.1/nunit.engine.core.dll",
+        "tools/agents/netcoreapp3.1/testcentric.engine.metadata.dll",
+        "tools/nunit.console.nuget.addins",
+        "tools/nunit.engine.api.dll",
+        "tools/nunit.engine.api.xml",
+        "tools/nunit.engine.core.dll",
+        "tools/nunit.engine.dll",
+        "tools/nunit3-console.exe",
+        "tools/nunit3-console.exe.config",
+        "tools/testcentric.engine.metadata.dll"
+      ]
+    },
+    "NUnit.Extension.NUnitProjectLoader/3.7.1": {
+      "sha512": "cZYJoUlx4wu9PU/ue6glZQDK3VHDBG0ZI4jK4wIp9+km7wktjxGqtpp7UodGdsgceJyvOQcXTM72Q7pm74XiVg==",
+      "type": "package",
+      "path": "nunit.extension.nunitprojectloader/3.7.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "nunit.extension.nunitprojectloader.3.7.1.nupkg.sha512",
+        "nunit.extension.nunitprojectloader.nuspec",
+        "tools/nunit-project-loader.dll"
+      ]
+    },
     "NUnit3TestAdapter/4.2.1": {
       "sha512": "kgH8VKsrcZZgNGQXRpVCrM7TnNz9li3b/snH+YmnXUNqsaWa1Xw9EQWHpbzq4Li2FbTjTE/E5N5HdLNXzZ8BpQ==",
       "type": "package",
@@ -1846,6 +1935,8 @@
       "MSTest.TestFramework >= 2.2.10",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "NUnit >= 3.13.1",
+      "NUnit.ConsoleRunner >= 3.15.0",
+      "NUnit.Extension.NUnitProjectLoader >= 3.7.1",
       "NUnit3TestAdapter >= 4.2.1",
       "Selenium.Support >= 4.1.1",
       "Selenium.WebDriver >= 4.1.1",
@@ -1862,11 +1953,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HT\\HT 6\\HT6_Decorators_BusinessObject\\HT6_Decorators_BusinessObject.csproj",
+      "projectUniqueName": "D:\\HT\\HT6\\HT6_Decorators_BusinessObject\\HT6_Decorators_BusinessObject.csproj",
       "projectName": "HT6_Decorators_BusinessObject",
-      "projectPath": "D:\\HT\\HT 6\\HT6_Decorators_BusinessObject\\HT6_Decorators_BusinessObject.csproj",
+      "projectPath": "D:\\HT\\HT6\\HT6_Decorators_BusinessObject\\HT6_Decorators_BusinessObject.csproj",
       "packagesPath": "C:\\Users\\dombr\\.nuget\\packages\\",
-      "outputPath": "D:\\HT\\HT 6\\HT6_Decorators_BusinessObject\\obj\\",
+      "outputPath": "D:\\HT\\HT6\\HT6_Decorators_BusinessObject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dombr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1914,6 +2005,14 @@
           "NUnit": {
             "target": "Package",
             "version": "[3.13.1, )"
+          },
+          "NUnit.ConsoleRunner": {
+            "target": "Package",
+            "version": "[3.15.0, )"
+          },
+          "NUnit.Extension.NUnitProjectLoader": {
+            "target": "Package",
+            "version": "[3.7.1, )"
           },
           "NUnit3TestAdapter": {
             "target": "Package",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HT\\HT 6\\HT6_Decorators_BusinessObject\\HT6_Decorators_BusinessObject.csproj": {}
+    "D:\\HT\\HT6\\HT6_Decorators_BusinessObject\\HT6_Decorators_BusinessObject.csproj": {}
   },
   "projects": {
-    "D:\\HT\\HT 6\\HT6_Decorators_BusinessObject\\HT6_Decorators_BusinessObject.csproj": {
+    "D:\\HT\\HT6\\HT6_Decorators_BusinessObject\\HT6_Decorators_BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HT\\HT 6\\HT6_Decorators_BusinessObject\\HT6_Decorators_BusinessObject.csproj",
+        "projectUniqueName": "D:\\HT\\HT6\\HT6_Decorators_BusinessObject\\HT6_Decorators_BusinessObject.csproj",
         "projectName": "HT6_Decorators_BusinessObject",
-        "projectPath": "D:\\HT\\HT 6\\HT6_Decorators_BusinessObject\\HT6_Decorators_BusinessObject.csproj",
+        "projectPath": "D:\\HT\\HT6\\HT6_Decorators_BusinessObject\\HT6_Decorators_BusinessObject.csproj",
         "packagesPath": "C:\\Users\\dombr\\.nuget\\packages\\",
-        "outputPath": "D:\\HT\\HT 6\\HT6_Decorators_BusinessObject\\obj\\",
+        "outputPath": "D:\\HT\\HT6\\HT6_Decorators_BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dombr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,6 +59,14 @@
             "NUnit": {
               "target": "Package",
               "version": "[3.13.1, )"
+            },
+            "NUnit.ConsoleRunner": {
+              "target": "Package",
+              "version": "[3.15.0, )"
+            },
+            "NUnit.Extension.NUnitProjectLoader": {
+              "target": "Package",
+              "version": "[3.7.1, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
